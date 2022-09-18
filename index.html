@@ -1,0 +1,63 @@
+  <html>
+  <head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="./Project.css">
+  <script src="./Project.js"></script>
+  </head>
+
+
+	<div id="main">
+	<div class="h-tag">
+	<center><h1><b>CREATE ACCOUNT</b></h1><h3>Employement Management System Registration Form</h3></center>
+	</div>
+	<div class="login">
+	<table align="center" cellpadding="10" border="0">
+	<tr>
+	<td align="right">Enter Your Name :</td>
+	<td><input type="text" placeholder="Enter Name" id="t1" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="right">Enter Email ID :</td>
+	<td><input type="email" placeholder="example@gmail.com" id="t2" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="right">Enter Username :</td>
+	<td><input type="text" placeholder="Enter Username" id="t3" class="tb" /></td>
+	</tr>
+<tr>
+	<td align="right">Enter your age :</td>
+	<td><input type="number" placeholder="Enter age" id="t6" class="tb" /></td>
+	</tr>
+<tr>
+	<td align="right">Enter Gender type :</td>
+	<td>
+<input type="radio" name="gender" value="male"> 
+Male 
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="other"> Other
+</td>
+	</tr>
+	<tr>
+	<td align="right">Enter Password :</td>
+	<td><input type="password" placeholder="Enter Password" id="t4" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="right">Enter Confirm Password :</td>
+	<td><input type="password" placeholder="Enter Password" id="t5" class="tb" /></td>
+	</tr>
+	<tr>
+	<td></td>
+
+    <td>
+	 <br>
+	<input type="reset" value="Clear Form" onclick="clearFunc()" id="res" class="btn" />
+	<input type="submit" value="Register" class="btn" onclick="registration()" /></td>
+	</tr>
+	</table>
+	</div>
+	</div>
+	</body>
+	</html>
